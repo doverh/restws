@@ -10,7 +10,7 @@
         <description>JAX-WS endpoint</description>
         <display-name>WSServlet</display-name>
         <servlet-name>WSServlet</servlet-name>
-        <servlet-class>com.sun.xml.ws.transport.http.servlet.WSServlet</servlet-class>
+        <servlet-class>org.glassfish.externaljersey.servlet.ServletContainer</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
